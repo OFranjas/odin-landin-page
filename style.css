@@ -3,6 +3,8 @@
   margin: 0;
 }
 
+/* ------------------ Header ---------------------  */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -38,6 +40,8 @@
   text-decoration: none;
 }
 
+/* -------------------- Hero --------------------- */
+
 .hero {
   display: flex;
   justify-content: center;
@@ -46,7 +50,7 @@
   padding: 100px 0;
 }
 
-.hero .placeholder {
+.placeholder {
   background-color: rgb(110, 116, 124);
   color: #e5e7eb;
   width: 50%;
@@ -71,18 +75,66 @@
 }
 
 .hero-text p {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin-bottom: 12px;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 12px;
 }
 
 .hero-text button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    font-size: 16px;
-    padding: 5px;
-    width: 120px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  padding: 5px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* -------------------- Information ---------------------- */
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 36px;
+  margin: 40px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.box .image {
+  width: 150px;
+  height: 150px;
+  border: #3882f6 3px solid;
+  border-radius: 10%;
+  margin-bottom: 5px;
+}
+
+.box p {
+  font-size: 18px;
+  color: rgb(110, 116, 124);
+  text-align: center;
 }
