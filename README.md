@@ -1,4 +1,4 @@
-# odin-landin-page
+# odin-landing-page
 
 This is a simple landing page created for [Odin Project](https://www.theodinproject.com)'s Foundations course. 
 
