@@ -138,3 +138,22 @@
   color: rgb(110, 116, 124);
   text-align: center;
 }
+
+/* -------------------- Quote -------------------- */
+
+.quote-space {
+    background-color: #e5e7eb;
+    padding: 90px 22%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
