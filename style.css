@@ -142,18 +142,51 @@
 /* -------------------- Quote -------------------- */
 
 .quote-space {
-    background-color: #e5e7eb;
-    padding: 90px 22%;
+  background-color: #e5e7eb;
+  padding: 90px 22%;
 }
 
 .quote {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .author {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: end;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
+}
+
+/* ---------------------- Call to Action ------------------- */
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 80px 12%;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.call-text h4 {
+  color: #f9faf8;
+  font-size: 20px;
+}
+
+.call-text p {
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.call-to-action button {
+
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    padding: 5px 30px;
+    border: #f9faf8 2px solid;
+    border-radius: 10px;
+    
 }
